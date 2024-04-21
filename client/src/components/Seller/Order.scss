@@ -1,0 +1,39 @@
+.order-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+
+  div {
+    padding: 0.5rem 1rem;
+  }
+
+  .flexrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      width: 3rem;
+    }
+
+    p {
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
+
+.order-main-container {
+  margin-bottom: 5rem;
+}
+
+.status select{
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(236, 236, 236);
+  padding: 0.5rem 1rem;
+  
+}
