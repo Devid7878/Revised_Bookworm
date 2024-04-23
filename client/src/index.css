@@ -12,12 +12,12 @@ code {
     monospace;
 }
 
-.active {
+/* .active {
   text-decoration: underline !important;
   text-decoration-color: #23212a !important;
   text-decoration-thickness: 3px !important;
   text-underline-offset: 5px !important;
-}
+} */
 
 body::-webkit-scrollbar {
   width: 0.3em;

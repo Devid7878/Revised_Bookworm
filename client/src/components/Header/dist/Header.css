@@ -81,11 +81,24 @@ header nav .nav-links-container .nav-links li a {
   align-items: center;
   gap: 5px;
 }
-header nav .nav-links-container .nav-links li:hover {
+header nav .nav-links-container .nav-links li a:hover {
   text-decoration: underline;
   text-decoration-color: #23212a;
   text-decoration-thickness: 3px;
   text-underline-offset: 5px;
+}
+header nav .nav-links-container .nav-links li .active {
+  text-decoration: underline;
+  text-decoration-color: #23212a;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+}
+header nav .nav-links-container .nav-links .logout-button:hover,
+header nav .nav-links-container .nav-links .shopping-cart:hover {
+  text-decoration: none;
+  text-decoration-color: unset;
+  text-decoration-thickness: 0;
+  text-underline-offset: 0;
 }
 header nav .nav-links-container .nav-links .button {
   border: 1px solid #23212a;
@@ -140,11 +153,7 @@ header nav .navbar-mobile .nav-links-mobile li a {
   text-decoration: none;
   padding: 2rem;
   color: #23212a;
-}
-header nav .navbar-mobile .nav-links-mobile li .logout-button button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: red !important;
 }
 @media (max-width: 1000px) {
   header nav .nav-links-container {
